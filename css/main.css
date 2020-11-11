@@ -243,32 +243,37 @@ body {
 
 .cbutton {
   /* background: rgb(128, 128, 128); */
-  background-color: rgba(255, 255, 255, .15);
-  backdrop-filter: blur(5px);
-  box-shadow: 0 0 .5rem 0 rgba(255, 255, 255, 0.21); 
-  border: none;
+  background-color: rgba(99, 92, 92, 0.15);
+  backdrop-filter: blur(10px);
+   
+
+  box-shadow: 3px 3px 14px 0 rgba(255, 255, 255, 0.1),
+              -8px -8px 18px 0 rgba(121, 121, 121, 0.55);
+  background: transparent;
   color: white;
-  border-radius: 8px;
+  border-radius: 25px;
   position: relative;
   transition: ease  100ms;
   outline:none;
+  border-color: rgba(136, 136, 136, 0.6);
+  
 }
 
 
 
 .cbutton:hover {
-  background-color: rgb(1, 170, 170);
+  background-color: rgb(95, 158, 230);
   outline:none;
   border: none;
 }
 
 .cbutton:active{
-  background-color: rgba(3, 168, 168, 0.8);
+  background-color: rgba(10, 116, 255, 0.8);
   border: none;
   outline:none;
 }
 .no-hover {
-  background: rgb(128, 128, 128);
+  background: rgb(255, 255, 255);
   border: none;
   color: white;
   border-radius: 8px;
@@ -280,7 +285,7 @@ body {
 
 .no-hover:hover, .no-over:active {
 
-  background: rgb(128, 128, 128);
+  background: rgb(172, 167, 167);
   border: none;
   color: white;
   border-radius: 8px;
@@ -364,5 +369,8 @@ body {
 } */
 
 .oned {
-  background: rgb(128, 128, 128);
+  background-color: #29539b;
+  background-image: linear-gradient(315deg, #29539b 10%, #1e3b70 54%);
+
+  
 }
